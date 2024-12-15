@@ -1,0 +1,64 @@
+table{
+    margin-top: 50px;
+    width: 1000px;
+    color: black;
+    overflow: scroll;
+}
+table td{
+    border: black 1px solid;
+    text-align: center;
+}
+
+.delete{
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform:  uppercase;
+    padding :15px 16px;
+    color: white;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
+
+.delete{
+    background-color: #b0d99f
+;
+    border: 2px solid #4b8033
+
+;
+align-content: center;
+    height: 40px;
+}
+.delete:hover{
+    background-color: white;
+    color: #4b8033
+;
+}
+.h{
+    background-color:#b0d99f
+}
+/*.a input{*/
+/*    padding-right: 100px;*/
+
+/*    margin-top: 35px;*/
+/*    max-width: 90px;*/
+/*    max-height: 30px;*/
+/*    background:#e0f0db*/
+/*;*/
+/*}*/
+/*.a input:focus{*/
+/*    border: 1px solid black;*/
+/*}*/
+
+table::-webkit-scrollbar{
+    width: 20px;
+    height: 10px;
+}
+table::-webkit-scrollbar-track{
+    background:
+            #f0fff7;
+
+}
+table::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e0f1da, #089da1);
+}

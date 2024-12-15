@@ -1,0 +1,99 @@
+
+.right-side {
+    background-color:#fff; ;
+
+
+
+    font-family: "Open Sans", san-serif, serif;
+    font-size: 16px;
+    min-height: 1630px;
+    border-radius: 10px;
+
+    transition: transform 1s;
+}
+
+.gif1{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.gif2{
+    margin-left: 160px;
+    margin-top: -85px;
+}
+
+.right-side ul {
+    position: relative;
+    margin-top: 40px;
+    border: 20px;
+}
+
+.right-side ul li {
+    cursor: pointer;
+    background-color: white;
+    list-style: none;
+    padding: 15px;
+    margin-top: 0;
+    margin-left: 0;
+    width : 70%;
+    box-shadow: 0 1px 25px rgb(0,0,0,0.1) ;
+    transition: transform 1s;
+    border-radius: 10px;
+}
+
+.right-side ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+.right-side a {
+    color: black;
+    text-decoration: unset;
+}
+.book1 {
+    margin: 50px;
+
+}
+.Books a{
+    color: black;
+    text-decoration: unset;
+    font-family: "Open Sans", san-serif, serif;
+    font-size: 16px;
+}
+img{
+    transition: transform 0.8s;
+    border-radius: 10px;
+}
+
+.Books img:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    box-shadow: 3px 10px 18px #888888;
+}
+h1 {
+    font-family: "ArabicFont", serif;
+    font-size: 45px;
+    color: black;
+    margin-top: 220px;
+
+}
+h1:hover{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: ArabicFont;
+    src: url("Fonts/Arbaeen.ttf");
+}
+body::-webkit-scrollbar{
+    width: 20px;
+    height: 10px;
+}
+body::-webkit-scrollbar-track{
+    background:
+            #f0fff7;
+
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e0f1da, #089da1);
+}
